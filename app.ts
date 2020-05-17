@@ -1,8 +1,9 @@
 import { Drash } from 'https://deno.land/x/drash/mod.ts';
+import { Weights, WeightItem } from './weights.ts';
 
 const server = new Drash.Http.Server({
 	response_output: 'application/json',
-	resources: [''],
+	resources: [Weights, WeightItem],
 });
 
 server.run({
