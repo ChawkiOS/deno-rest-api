@@ -1,0 +1,25 @@
+### Get all weights
+GET http://localhost:3000/weights HTTP/1.1
+
+### Get weight with id 1
+GET http://localhost:3000/weights/1 HTTP/1.1
+
+### Delete weight with id 1
+DELETE  http://localhost:3000/weights/1 HTTP/1.1
+
+### Post new weight
+POST  http://localhost:3000/weights HTTP/1.1
+Content-Type: application/json
+
+{
+    "weight" : "75.6",
+    "date" : "10/05/2020"
+}
+
+### Update weight with id 2
+PUT  http://localhost:3000/weights/2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "weight" : 76.3
+}
