@@ -1,5 +1,5 @@
-# REST API with Deno and Drash
-A simple API for weight tracker app
+# Deno and Drash Rest API
+A simple API for weight tracker app built with Drash (REST microframework for Deno).
 
 ### Used VS Code extensions
 
